@@ -176,6 +176,6 @@ sr.reveal(`.home__container, .home__img, .home__data`,{delay: 600})
 sr.reveal(`.about__img, .about__data, .about__buttons`,{delay: 600})
 
 sr.reveal(`.skills__container, .qualification__container, .services__container`,{origin: 'top', interval: 100})
-sr.reveal(`.project__data, .project__img, .portfolio__container`,{origin: 'left', interval: 100})
-sr.reveal(`.contact__information, .contact__form, .testimonial__container`,{origin: 'right'})
+sr.reveal(`.project__data, .project__img, .portfolio__container`,{origin: 'bottom', interval: 100})
+sr.reveal(`.contact__information, .contact__form, .testimonial__container`,{origin: 'bottom'})
 sr.reveal(`.footer__title, .footer__subtitle, .footer__links, .footer__socials`,{origin: 'top'})
