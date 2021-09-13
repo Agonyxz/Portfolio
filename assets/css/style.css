@@ -162,6 +162,10 @@ label {
     background-color: var(--body-color);
 }
 
+.header__img {
+    width: 100px; 
+}
+
 /*==================== NAV ====================*/
 .nav {
     max-width: 968px;
@@ -431,9 +435,6 @@ label {
 .about__buttons {
     display: flex;
     justify-content: center;
-}
-i {
-    color: #333;
 }
 
 /*==================== SKILLS ====================*/
@@ -989,9 +990,6 @@ i {
     color: #fff;
 }
 
-i {
-    color: #fff;
-}
 
 /* Show scroll */
 .show-scroll {
@@ -1016,7 +1014,9 @@ i {
 /* For small devices */
 @media screen and (max-width:375px) {
 
-    
+    .header__img {
+        width: 100px;
+    }
     
     .container {
         margin-left: var(--mb-1);
@@ -1098,6 +1098,10 @@ i {
         order: 1;
         justify-self: center;
     }
+    
+    .header__img {
+        width: 100px;
+    }
 
     .about__container,
     .portfolio__content,
@@ -1139,6 +1143,10 @@ i {
     .header {
         top: 0;
         bottom: initial;
+    }
+    
+    .header__img {
+        width: 100px;
     }
 
     .header,
@@ -1307,6 +1315,10 @@ i {
 
     .testimonial__container {
         margin: 50px;
+    }
+    
+    .header__img {
+        max-width: 300px;
     }
 
 }
